@@ -1,37 +1,104 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="D:\code\CodeProject\pages/styles.css">
 
-You can use the [editor on GitHub](https://github.com/jan1dra/jan1dra.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+    <script src="https://kit.fontawesome.com/1ed0828eda.js" crossorigin="anonymous"></script>
+      <meta charset="UTF-8"/>
+      <title>
+         Alejandra Alvarez-Buchanan
+      </title>
+      </head>
+        <body>
+      <nav id="name">
+        <i class="fa-solid fa-bug" alt="transparent ladybug icon"></i>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      </nav>
+      <ul class="nav-bar">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="https://github.com/jan1dra"><i class="fa-brands fa-github"></i> Github</a></li>
+        <li><a href="pages/contact.html"><i class="fa-regular fa-address-book"></i> Contact me</a></li>
+      </ul>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="hero">
+    <div class="hero-info">
+<h1 id="name"> Alejandra Alvarez-Buchanan</h1>
+<p> I am a Jr.Developer. </p>
+<div class="styled-break"></div>
+<button class="button"> Hire Me</button>
+</div>
+ </div>
 
-```markdown
-Syntax highlighted code block
+    <section>
+      <div class="one">
+        <img class="avatar" src="images/fosh.jpg" alt="photo">
+      </div>
+      <div class="info">
+        <h2><a name="about-me">about me </a></h2>
+          <p>Born and raised in Las Vegas,NV. I decided to teach myself to code
+            after a short career in sales, marketing, and customer service.</p>
+      </div>
+    </section>
+    <section>
 
-# Header 1
-## Header 2
-### Header 3
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </section>
+    <div class="face">
+      <div class="eye-container">
+        <div class="eye">
+        <div class="pupil">
+        </div>
+      </div>
+        <div class="eye">
+          <div class="pupil">
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <form>
+        <h2>Contact Me</h2>
+        <div class="input-section">
+          <div class="input-group">
+              <label for="first-name">First Name:</label>
+              <input type="text" id="first-name" name="first-name" value="John"></input>
+            </div>
+            <div class="input-group">
+              <label for="last-name">Last Name:</label>
+              <input type="text" id="last-name" name="last-name" value="Doe"></input>
+          </div>
+        </div>
+        <div class="input-section">
+          <div class="input-group">
+            <input type="radio" id="office" name="office" value="office"></input>
+            <label for="office">Office:</label>
+          </div>
+          <div class="input-group">
+            <input type="radio" id="remote" name="remote" value="remote"></input>
+            <label for="remote">Remote:</label>
+          </div>
+          <div class="input-group">
+            <input type="radio" id="other" name="other" value="other"></input>
+            <label for="other">Other:</label>
+          </div>
+        </div>
+    <input class="button" type="submit" value="submit"></input>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jan1dra/jan1dra.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+      </form>
+    </section>
+        <footer>
+      <ul start="50">
+        <li><a href="">about me</a></li>
+        <li><a href="">contact<a></li>
+        <li><a href="https://github.com/jan1dra">github</a></li>
+        </ul>
+    </footer>
+    <script src="pages/java.js">  </script>
+    </body>
+  </html>
